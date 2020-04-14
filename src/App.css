@@ -10,6 +10,7 @@ background: -webkit-linear-gradient(to right, #FF0080, #FF8C00, #40E0D0);  /* Ch
 background: linear-gradient(to right, #FF0080, #FF8C00, #40E0D0); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 
 }
+/* Landingpage start here */
 .landing-grid{
     /* background: #00B4DB;  
     background: -webkit-linear-gradient(to right, #0083B0, #00B4DB);
@@ -58,6 +59,7 @@ background: linear-gradient(to right, #FF0080, #FF8C00, #40E0D0); /* W3C, IE 10+
     border-radius: 10px;
     width: fit-content;
     padding: 0 3rem;
+    
 
     
 }
@@ -101,15 +103,35 @@ background: linear-gradient(to right, #FF0080, #FF8C00, #40E0D0); /* W3C, IE 10+
 .header-link:hover{
    color: white;
 }
+/* Landing page finis here */
+/* about start here */
+.about{
+    width: 100%;
+}
+.about-desc{
+    width: 50%;
+    height: 100%;
+    margin: 4rem auto;
+    padding: 1.5rem 2rem;
+    box-shadow: 3px 3px 4px rgba(0, 0, 0, 0.534) ;
+    border-radius: 10px;
+    font:'Anton';
+}
+/* about finish here */
+
+/* project content start here */
 .project-content{
     display: flex;
+    justify-content: center;
     
 
 }
 .project-card{
     margin:  2rem;
 }
-/* Contact page */
+/* project content Finish  here */
+
+/* Contact page start here */
 .contact-container{
     margin:auto;
     /* background-color:  #0F2027; */
@@ -143,14 +165,15 @@ margin: auto;
     font-size: 3rem;
     padding-right: 2rem;
 }
-/* resume page */
+/* contact page finish here */
+/* resume  start here page */
 .resume-right{
     background-color: #27221F;
     color: white;
     padding:2rem;
 }
 
-
+/* Responsive web design Mediaqueries */
 @media (max-width:500px){
     .project-content{
         display: flex;

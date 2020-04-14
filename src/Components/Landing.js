@@ -28,15 +28,15 @@ class Landing extends React.Component {
                                 <p className='header-skills'>HTML/CSS | JavaScript | React.Js | Sass </p>
                                 <ul className="header-list">
                                     <li className="header-item"> 
-                                       <a className="header-link" href='https:\\facebook.com\fakhriddine.hariz' target='_blank' rel="noopener noreferrer">
+                                       <a className="header-link" href='https://www.linkedin.com/in/hariz-fakhriddine-958a9638/' target='_blank' rel="noopener noreferrer">
                                         <i  className="fa fa-linkedin-square" aria-hidden="true"/></a> 
                                     </li>
                                     <li className="header-item"> 
-                                         <a className="header-link" href='https:\\facebook.com\fakhriddine.hariz' target='_blank' rel="noopener noreferrer">
+                                         <a className="header-link" href='https://github.com/Stein-Hakase' target='_blank' rel="noopener noreferrer">
                                         <i  className="fa fa-github-square" aria-hidden="true"/></a>
                                      </li>
                                     <li className="header-item"> 
-                                         <a className="header-link" href='https:\\facebook.com\fakhriddine.hariz' target='_blank' rel="noopener noreferrer">
+                                         <a className="header-link" href='https://www.freecodecamp.org/fccee340832-fa44-42c4-b33c-92756ba692ed' target='_blank' rel="noopener noreferrer">
                                         <i  className="fa fa-free-code-camp" aria-hidden="true" /></a>
                                     </li>
                                     <li className="header-item"> 
