@@ -9,11 +9,11 @@ import Contact from './Contact'
 
 const Main= ()=>(
     <Switch>
-        <Route exact path="/MyPortfolio/" component={Landing}/>
-        <Route path="/MyPortfolio/Resume" component={Resume}/>
-        <Route path="/MyPortfolio/Projects" component={Projects}/>
-        <Route path="/MyPortfolio/About-me" component={Aboutme}/>
-        <Route path="/MyPortfolio/Contact" component={Contact}/>
+        <Route path="/MyPortfolio" component={Landing}/>
+        <Route path="/Resume" component={Resume}/>
+        <Route path="/Projects" component={Projects}/>
+        <Route path="/About-me" component={Aboutme}/>
+        <Route path="/Contact" component={Contact}/>
         
     </Switch>
 )
