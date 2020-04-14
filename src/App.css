@@ -105,18 +105,34 @@ background: linear-gradient(to right, #FF0080, #FF8C00, #40E0D0); /* W3C, IE 10+
 }
 /* Landing page finis here */
 /* about start here */
-.about{
+.grid-about{
+    display: flex;
+    position: fixed;
+    justify-content: center;
+    align-items: center;
     width: 100%;
-}
-.about-desc{
-    width: 50%;
     height: 100%;
-    margin: 4rem auto;
-    padding: 1.5rem 2rem;
     box-shadow: 3px 3px 4px rgba(0, 0, 0, 0.534) ;
-    border-radius: 10px;
-    font:'Anton';
+    background-color: #27221F;
+   
 }
+
+ .about-desc{
+    width: 50%;
+    padding:3rem 2rem; 
+    font-style:'Anton';
+    color: white;
+    text-align: justify;
+    
+    
+} 
+.about-img{
+    width:20rem;
+    height: 27rem;
+    border-radius: 15px;
+
+ 
+ }
 /* about finish here */
 
 /* project content start here */
