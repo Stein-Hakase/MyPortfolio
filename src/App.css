@@ -161,4 +161,33 @@ margin: auto;
     .project-card{
         margin: 1rem auto;
     }
-}
+    .avatar-img{
+
+        height: 10rem;
+        width: 10rem;
+        margin-top: 3rem;
+       
+    
+    }
+    
+    .header-box{
+        width: 100%;
+        text-align: center;
+        margin: 1rem 2rem;
+        padding: 2rem;
+    
+    }
+    .header-title{
+  
+        font-size: 1.5rem;
+        padding: 0 2rem;
+    }
+    .header-hr{
+        border-top: 3.5px dotted white;
+       
+    }
+    .header-list{
+       
+        padding: 0 2.5rem;
+       
+}}

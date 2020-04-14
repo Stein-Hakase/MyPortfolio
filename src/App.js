@@ -22,10 +22,10 @@ function App() {
         <Drawer title={<Link style={{textDecoration:'none', color:'#757575'}} to="/MyPortfolio/">Fakhreddine Hariz</Link> }>
             <Navigation>
             
-                <Link to="Resume">Resume</Link>
-                <Link to="Projects">Projects</Link>
-                <Link to="About-me">About Me</Link>
-                <Link to="Contact">Contact</Link>
+                <Link to="/MyPortfolio/Resume">Resume</Link>
+                <Link to="/MyPortfolio/Projects">Projects</Link>
+                <Link to="/MyPortfolio/About-me">About Me</Link>
+                <Link to="/MyPortfolio/Contact">Contact</Link>
            
             </Navigation>
         </Drawer>
